@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-.header,.hero-section,.information-section,.quote-section,.action-section {
+.header,.hero-section,.information-section,.quote-section,.action-section,.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ ul {
     padding-right: 200px;
 }
 
-.header,.hero-section {
+.header,.hero-section,.footer {
     background-color: #1F2937;
 }
 
@@ -35,7 +35,7 @@ ul {
     font-weight: bold;
 }
 
-.links,.hero-text {
+.links,.hero-text,.footer-text {
     display: flex;
     gap: 24px;
     font-size: 18px;
@@ -120,4 +120,8 @@ ul {
     width: 100px;
     font-weight: bold;
     font-size: 18px;
+}
+
+.footer {
+    justify-content: center;
 }
