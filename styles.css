@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-.header,.hero-section,.information-section,.quote-section {
+.header,.hero-section,.information-section,.quote-section,.action-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,4 +98,26 @@ ul {
 
 .quote-author {
     font-size: 30px;
+}
+
+.action-section {
+    background-color: #3382F6;
+    margin: 70px 180px;
+}
+
+.action-content {
+    color: white;
+}
+
+.action-button {
+    color: white;
+    background-color: #3382F6;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
 }
