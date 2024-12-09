@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-.header,.hero-section,.information-section {
+.header,.hero-section,.information-section,.quote-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,4 +83,19 @@ ul {
 
 .info img {
     border-radius: 10%;
+}
+
+.quote-section {
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 30px;
 }
