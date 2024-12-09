@@ -4,6 +4,7 @@
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 ul {
@@ -15,8 +16,14 @@ ul {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hero-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 30px;
 }
 
 .logo {
@@ -41,4 +48,12 @@ ul {
 .signup-button {
     background-color: #3382F6;
     color: white;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
 }
