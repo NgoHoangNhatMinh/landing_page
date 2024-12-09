@@ -11,13 +11,16 @@ ul {
     list-style: none;
 }
 
-.header,.hero-section  {
+.header,.hero-section,.information-section {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.header,.hero-section {
+    background-color: #1F2937;
 }
 
 .hero-section {
@@ -56,4 +59,28 @@ ul {
     width: 100px;
     font-weight: bold;
     font-size: 18px;
+}
+
+.information-section {
+    flex-direction: column;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    flex: 1;
+    max-width: 200px;
+}
+
+.info img {
+    border-radius: 10%;
 }
