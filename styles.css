@@ -15,21 +15,18 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header,.hero-section {
     background-color: #1F2937;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .hero-section {
     padding-top: 20px;
     padding-bottom: 40px;
     gap: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .logo {
@@ -91,8 +88,6 @@ ul {
 .quote-section {
     flex-direction: column;
     background-color: #E5E7EB;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .quote {
