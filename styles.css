@@ -24,8 +24,8 @@ ul {
 }
 
 .hero-section {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap: 30px;
 }
 
@@ -69,6 +69,8 @@ ul {
 
 .information-section {
     flex-direction: column;
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
 .information-title {
@@ -94,6 +96,8 @@ ul {
 .quote-section {
     flex-direction: column;
     background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .quote {
@@ -110,6 +114,8 @@ ul {
 .action-section {
     background-color: #3382F6;
     margin: 70px 180px;
+    padding: 30px 100px 30px 100px;
+    border-radius: 10px;
 }
 
 .action-content {
